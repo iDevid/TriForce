@@ -1,0 +1,23 @@
+
+.DS_Store
+*.pkg
+
+# SwiftPM build and workspace state
+.build/
+.swiftpm/
+
+# Xcode / XcodeGen
+DerivedData/
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.xcworkspacedata
+
+# Android / Gradle
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/build/
+
+# JetBrains / IDE state
+.idea/
