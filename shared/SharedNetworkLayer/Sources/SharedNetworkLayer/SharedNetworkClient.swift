@@ -93,23 +93,4 @@ public final class SharedNetworkClient: Sendable {
             throw SharedNetworkError.apiError("Failed to decode response: \(error.localizedDescription)")
         }
     }
-
-//    public func fetchCharacters() async throws -> [PlayerCharacter] {
-//        let endpoint = baseURL.appending(path: "characters")
-//        let (data, response) = try await session.data(from: endpoint)
-//
-//        guard let httpResponse = response as? HTTPURLResponse else {
-//            throw SharedNetworkError.invalidResponse
-//        }
-//
-//        guard httpResponse.statusCode == 200 else {
-//            throw SharedNetworkError.unexpectedStatusCode(httpResponse.statusCode)
-//        }
-//
-//        do {
-//            return try JSONDecoder().decode([PlayerCharacter].self, from: data)
-//        } catch {
-//            throw SharedNetworkError.apiError("Failed to decode characters response: \(error.localizedDescription)")
-//        }
-//    }
 }
