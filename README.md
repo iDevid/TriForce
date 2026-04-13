@@ -1,5 +1,9 @@
 # TriForceDemo
 
+<p align="center">
+  <img src="resources/triforce.webp" alt="TriForce Demo logo" width="320">
+</p>
+
 Monorepo showing how to share Swift code across:
 - iOS with SwiftUI
 - Android through JNI via [swift-java](https://github.com/swiftlang/swift-java)
@@ -13,6 +17,7 @@ shared/
   SharedModels/             Shared Swift domain models
   SharedNetworkLayer/       Shared Swift HTTP client
 ```
+
 
 ## Repo Overview
 
@@ -154,6 +159,14 @@ Useful Android commands:
 ./gradlew :app:assembleDebug
 ./gradlew :app:installDebug
 ```
+
+
+## Final Result
+
+<p align="center">
+  <img src="resources/triforce-ios.png" alt="TriForce iOS screenshot" width="260">
+  <img src="resources/triforce-android.png" alt="TriForce Android screenshot" width="260">
+</p>
 
 ## Important Files
 
